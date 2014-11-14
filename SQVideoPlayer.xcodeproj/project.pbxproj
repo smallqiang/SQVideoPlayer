@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C947C06A1A11ED3A00725B3C /* deep_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C947C0681A11ED3A00725B3C /* deep_play_btn@2x.png */; };
+		C947C06B1A11ED3A00725B3C /* deep_stop_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C947C0691A11ED3A00725B3C /* deep_stop_btn@2x.png */; };
+		C947C06F1A11ED4600725B3C /* 1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C947C06D1A11ED4600725B3C /* 1@2x.jpg */; };
+		C947C0701A11ED4600725B3C /* 2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C947C06E1A11ED4600725B3C /* 2@2x.jpg */; };
+		C947C0751A11EE5C00725B3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C947C0721A11EE5C00725B3C /* Default-568h@2x.png */; };
+		C947C0761A11EE5C00725B3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C947C0731A11EE5C00725B3C /* Default.png */; };
+		C947C0771A11EE5C00725B3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C947C0741A11EE5C00725B3C /* Default@2x.png */; };
+		C947C07A1A11F4AD00725B3C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C947C0791A11F4AD00725B3C /* MediaPlayer.framework */; };
 		C9B4A49C1A09D6FD00E528D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A49B1A09D6FD00E528D1 /* main.m */; };
 		C9B4A49F1A09D6FD00E528D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A49E1A09D6FD00E528D1 /* AppDelegate.m */; };
 		C9B4A4A21A09D6FD00E528D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A4A11A09D6FD00E528D1 /* ViewController.m */; };
@@ -16,6 +24,9 @@
 		C9B4A4B61A09D6FD00E528D1 /* SQVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A4B51A09D6FD00E528D1 /* SQVideoPlayerTests.m */; };
 		C9B4A4C21A09D7F100E528D1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A4C01A09D7F100E528D1 /* MainViewController.m */; };
 		C9B4A4C31A09D7F100E528D1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B4A4C11A09D7F100E528D1 /* MainViewController.xib */; };
+		C9B4A4CE1A0A1C9600E528D1 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A4CC1A0A1C9600E528D1 /* MainTableViewCell.m */; };
+		C9B4A4CF1A0A1C9600E528D1 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B4A4CD1A0A1C9600E528D1 /* MainTableViewCell.xib */; };
+		C9BB29371A1445B80051DACA /* SQMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BB29361A1445B80051DACA /* SQMovieViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C947C0681A11ED3A00725B3C /* deep_play_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deep_play_btn@2x.png"; sourceTree = "<group>"; };
+		C947C0691A11ED3A00725B3C /* deep_stop_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deep_stop_btn@2x.png"; sourceTree = "<group>"; };
+		C947C06D1A11ED4600725B3C /* 1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@2x.jpg"; sourceTree = "<group>"; };
+		C947C06E1A11ED4600725B3C /* 2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2@2x.jpg"; sourceTree = "<group>"; };
+		C947C0721A11EE5C00725B3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C947C0731A11EE5C00725B3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C947C0741A11EE5C00725B3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C947C0791A11F4AD00725B3C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C9B4A4961A09D6FD00E528D1 /* SQVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B4A49A1A09D6FD00E528D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9B4A49B1A09D6FD00E528D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +64,11 @@
 		C9B4A4BF1A09D7F100E528D1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C9B4A4C01A09D7F100E528D1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C9B4A4C11A09D7F100E528D1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C9B4A4CB1A0A1C9600E528D1 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		C9B4A4CC1A0A1C9600E528D1 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		C9B4A4CD1A0A1C9600E528D1 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		C9BB29351A1445B80051DACA /* SQMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMovieViewController.h; sourceTree = "<group>"; };
+		C9BB29361A1445B80051DACA /* SQMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMovieViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C947C07A1A11F4AD00725B3C /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +90,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C947C0671A11ED3A00725B3C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C947C0711A11EE5C00725B3C /* default */,
+				C947C06C1A11ED4600725B3C /* other */,
+				C947C0681A11ED3A00725B3C /* deep_play_btn@2x.png */,
+				C947C0691A11ED3A00725B3C /* deep_stop_btn@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C947C06C1A11ED4600725B3C /* other */ = {
+			isa = PBXGroup;
+			children = (
+				C947C06D1A11ED4600725B3C /* 1@2x.jpg */,
+				C947C06E1A11ED4600725B3C /* 2@2x.jpg */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		C947C0711A11EE5C00725B3C /* default */ = {
+			isa = PBXGroup;
+			children = (
+				C947C0721A11EE5C00725B3C /* Default-568h@2x.png */,
+				C947C0731A11EE5C00725B3C /* Default.png */,
+				C947C0741A11EE5C00725B3C /* Default@2x.png */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
 		C9B4A48D1A09D6FD00E528D1 = {
 			isa = PBXGroup;
 			children = (
+				C947C0791A11F4AD00725B3C /* MediaPlayer.framework */,
 				C9B4A4981A09D6FD00E528D1 /* SQVideoPlayer */,
 				C9B4A4B21A09D6FD00E528D1 /* SQVideoPlayerTests */,
 				C9B4A4971A09D6FD00E528D1 /* Products */,
@@ -86,6 +142,8 @@
 		C9B4A4981A09D6FD00E528D1 /* SQVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C9BB29341A1445B80051DACA /* SQMovieController */,
+				C947C0671A11ED3A00725B3C /* Resource */,
 				C9B4A49D1A09D6FD00E528D1 /* AppDelegate.h */,
 				C9B4A49E1A09D6FD00E528D1 /* AppDelegate.m */,
 				C9B4A4A01A09D6FD00E528D1 /* ViewController.h */,
@@ -97,6 +155,9 @@
 				C9B4A4BF1A09D7F100E528D1 /* MainViewController.h */,
 				C9B4A4C01A09D7F100E528D1 /* MainViewController.m */,
 				C9B4A4C11A09D7F100E528D1 /* MainViewController.xib */,
+				C9B4A4CB1A0A1C9600E528D1 /* MainTableViewCell.h */,
+				C9B4A4CC1A0A1C9600E528D1 /* MainTableViewCell.m */,
+				C9B4A4CD1A0A1C9600E528D1 /* MainTableViewCell.xib */,
 			);
 			path = SQVideoPlayer;
 			sourceTree = "<group>";
@@ -125,6 +186,15 @@
 				C9B4A4B41A09D6FD00E528D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9BB29341A1445B80051DACA /* SQMovieController */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB29351A1445B80051DACA /* SQMovieViewController.h */,
+				C9BB29361A1445B80051DACA /* SQMovieViewController.m */,
+			);
+			path = SQMovieController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,10 +277,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C947C0771A11EE5C00725B3C /* Default@2x.png in Resources */,
 				C9B4A4A51A09D6FD00E528D1 /* Main.storyboard in Resources */,
 				C9B4A4AA1A09D6FD00E528D1 /* LaunchScreen.xib in Resources */,
+				C947C0701A11ED4600725B3C /* 2@2x.jpg in Resources */,
+				C947C0751A11EE5C00725B3C /* Default-568h@2x.png in Resources */,
+				C947C06F1A11ED4600725B3C /* 1@2x.jpg in Resources */,
+				C947C06B1A11ED3A00725B3C /* deep_stop_btn@2x.png in Resources */,
 				C9B4A4A71A09D6FD00E528D1 /* Images.xcassets in Resources */,
 				C9B4A4C31A09D7F100E528D1 /* MainViewController.xib in Resources */,
+				C9B4A4CF1A0A1C9600E528D1 /* MainTableViewCell.xib in Resources */,
+				C947C06A1A11ED3A00725B3C /* deep_play_btn@2x.png in Resources */,
+				C947C0761A11EE5C00725B3C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +309,9 @@
 				C9B4A4A21A09D6FD00E528D1 /* ViewController.m in Sources */,
 				C9B4A49F1A09D6FD00E528D1 /* AppDelegate.m in Sources */,
 				C9B4A49C1A09D6FD00E528D1 /* main.m in Sources */,
+				C9BB29371A1445B80051DACA /* SQMovieViewController.m in Sources */,
 				C9B4A4C21A09D7F100E528D1 /* MainViewController.m in Sources */,
+				C9B4A4CE1A0A1C9600E528D1 /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
