@@ -53,10 +53,7 @@
     }
     
     [cell.playButton addTarget:self action:@selector(playOrStop:) forControlEvents:UIControlEventTouchUpInside];
-    
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
-    tap.delegate = self;
-    [cell.moviePlayer.view addGestureRecognizer:tap];
+    [cell.fullButton addTarget:self action:@selector(fullScreen:) forControlEvents:UIControlEventTouchUpInside];
     
     NSInteger row = indexPath.row;
     cell.playButton.tag = row;
@@ -67,7 +64,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"did select");
+    
 }
 
 - (void)playOrStop:(UIButton *)button
@@ -119,17 +116,8 @@
     [cell showImageView];
 }
 
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
-//    // 若为UITableViewCellContentView（即点击了tableViewCell），则不截获Touch事件
-//    if ([NSStringFromClass([touch.view class]) isEqualToString:@"MainTableViewCell"]) {
-//        return NO;
-//    }
-    return  YES;
-}
-
-- (void)handleTap:(UITapGestureRecognizer*)recognizer
+- (void)fullScreen:(UIButton *)button
 {
-    NSLog(@"handle");
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_currentRow inSection:0];
     MainTableViewCell *cell = (MainTableViewCell *)[_tableView cellForRowAtIndexPath:indexPath];
     

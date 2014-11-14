@@ -18,6 +18,7 @@
 
 @property (nonatomic, strong) UIView *playerView;
 @property (nonatomic, strong) SQMovieViewController *moviePlayer;
+@property (nonatomic, strong) UIButton *fullButton;
 
 - (void)showMovieView;
 

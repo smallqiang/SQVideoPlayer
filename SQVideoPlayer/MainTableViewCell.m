@@ -14,7 +14,6 @@
     // Initialization code
     self.playerView = [[UIView alloc]initWithFrame:_avatarIV.frame];
     _playerView.backgroundColor=[UIColor clearColor];
-//    [self insertSubview:_playerView belowSubview:_avatarIV];
     [self.contentView addSubview:_playerView];
     
     _moviePlayer=[[SQMovieViewController alloc]init];
@@ -23,6 +22,11 @@
     _moviePlayer.moviePlayer.initialPlaybackTime = -1.0;
     _moviePlayer.moviePlayer.controlStyle = MPMovieControlStyleNone;
     [_playerView addSubview:_moviePlayer.view];
+    
+    _fullButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    _fullButton.frame = _moviePlayer.view.bounds;
+    [_playerView addSubview:_fullButton];
+    
     _playerView.hidden = YES;
 }
 
